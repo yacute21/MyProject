@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ddcf9e0-ed73-4f81-9e0a-2234f1c31c02">
+  <producedTypes>
+    <objectType typeId="657c450c-74d0-452b-9086-57ed1ad8e5d2" valueTypeId="435cb1c9-01e6-41c5-9bcd-a967be1d40d6"/>
+    <refType typeId="19a7d902-42b1-43fe-ad9a-067c0ae7d474" valueTypeId="f65769f6-c075-4ea0-856a-ee0053d9b611"/>
+    <selectionType typeId="915ce7ba-cab8-4b85-ad84-d7317ebac942" valueTypeId="8acf0a96-0072-497d-a597-4d40d76e5f57"/>
+    <listType typeId="36be7665-77dd-4cf1-98c5-ccc74ef0609e" valueTypeId="6d36d00e-9948-4f17-a96a-788bf01f9d19"/>
+    <managerType typeId="7a691fb8-6eec-42b8-9e93-4792be6476b4" valueTypeId="1bd78837-89a5-4d41-be36-3e77b140086d"/>
+  </producedTypes>
+  <name>ais</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ais</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ais.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ais.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

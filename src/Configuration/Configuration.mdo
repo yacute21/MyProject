@@ -38,8 +38,10 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <catalogs>Catalog.ais</catalogs>
   <catalogs>Catalog.Cотрудник</catalogs>
   <catalogs>Catalog.Зарплата</catalogs>
   <documents>Document.Документ</documents>
+  <documents>Document.Документ1</documents>
   <informationRegisters>InformationRegister.РегистрСведений</informationRegisters>
 </mdclass:Configuration>
