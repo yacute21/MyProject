@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d26eac2b-19bb-4a71-a9f6-718d15d774e3">
+  <producedTypes>
+    <objectType typeId="4bb3334f-5f93-4d62-bf12-c97fff85861d" valueTypeId="eb17f07f-83bf-4e53-a06d-0ff254016d32"/>
+    <refType typeId="a9582fa3-0f17-46c4-ae1f-41e470e5cf5d" valueTypeId="cefc2ea2-b9aa-4781-94e1-e6312fc54d32"/>
+    <selectionType typeId="3cdf27a9-94f7-4b0e-8bab-e611e9a00207" valueTypeId="0111f474-7b2c-4ba7-bf69-21042e2330db"/>
+    <listType typeId="f666b6b7-5305-4aaf-93d7-d8c2ec4330df" valueTypeId="a1b15229-8fc8-471b-94e2-36be5c3b1204"/>
+    <managerType typeId="ead12195-477e-45ae-95b9-8594a380848e" valueTypeId="7affebc1-bf79-435b-aaa4-7dc12c59e62c"/>
+  </producedTypes>
+  <name>Документ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Документ.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="716fa8f0-035a-4344-9e6b-c18a6245e56d">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Cотрудник</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9ba6021e-e193-4ddf-afef-a9d642d6f072">
+    <name>ЗП</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЗП</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Зарплата</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

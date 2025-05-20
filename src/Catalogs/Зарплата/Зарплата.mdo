@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64e8456a-6da4-443d-bc17-11f951a8e061">
+  <producedTypes>
+    <objectType typeId="1b84fb10-a0d6-4d29-b8a0-a4da70e3e0df" valueTypeId="d02fc5e4-f0b6-41b4-ad50-4375bbdb8a3c"/>
+    <refType typeId="924cd49f-51d3-423b-923a-ae0dd8108909" valueTypeId="df86e849-173e-4146-beee-f8b483389a74"/>
+    <selectionType typeId="53757c7e-567c-4dc5-8587-2b5c9df17419" valueTypeId="0664a680-2a0c-40a5-aaa5-5e4fed65a144"/>
+    <listType typeId="cc3412d7-08f4-4126-be4c-ce86d01cc47b" valueTypeId="6f7cb918-1d6d-43f4-bc6a-026a59ea4f81"/>
+    <managerType typeId="6e3eee9d-f864-4bae-b2f4-6bed69a5b0a9" valueTypeId="f6c3a4d8-de7e-4ea0-87a6-e3d1e77d1b15"/>
+  </producedTypes>
+  <name>Зарплата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарплата</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Зарплата.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Зарплата.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="679cb93f-14f2-439b-b1f2-64cbb9e856f8">
+    <name>Оклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оклад</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
